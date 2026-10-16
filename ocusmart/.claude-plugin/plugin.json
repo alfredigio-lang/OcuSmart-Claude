@@ -1,13 +1,23 @@
 {
   "name": "ocusmart",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Experimental ophthalmology research and education for professionals using previously anonymized material, native to Claude. Scientific direction: Dr. Alfredo Di Giovanni. No patient-care decisions or clinical validation.",
   "author": {
     "name": "Alfredo Di Giovanni",
     "email": "ocusmartai@gmail.com"
   },
   "homepage": "https://ocusmart.alfredigio.chatgpt.site/plugin",
-  "keywords": ["ophthalmology", "research", "education", "oculomics", "OCT", "TrueRef", "keratoconus", "glaucoma"],
+  "keywords": [
+    "ophthalmology",
+    "research",
+    "education",
+    "oculomics",
+    "OCT",
+    "TrueRef",
+    "keratoconus",
+    "glaucoma"
+  ],
   "skills": "./skills",
-  "commands": "./commands"
+  "commands": "./commands",
+  "license": "MIT"
 }
