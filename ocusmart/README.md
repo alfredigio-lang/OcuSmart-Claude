@@ -8,6 +8,13 @@ Scientific direction: Dr. Alfredo Di Giovanni.
 
 ## How to use it
 
+In the Claude app, add OcuSmart from the plugin directory (Customize → Plugins → Discover). In Claude Code:
+
+```
+/plugin install ocusmart --marketplace alfredigio-lang/OcuSmart-Claude
+```
+
+
 After adding the plugin, write **"Start OcuSmart"** (or "Avvia OcuSmart") in any chat and describe your question in your own words. In Claude Code the commands `/ocusmart`, `/trueref`, `/academy` and `/longitudinal` are also available.
 
 ## What it runs, sends and stores
