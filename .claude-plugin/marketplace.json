@@ -11,8 +11,8 @@
     {
       "name": "ocusmart",
       "source": "./ocusmart",
-      "description": "Experimental ophthalmology research and education for professionals using previously anonymized material. Not for patient care.",
-      "version": "0.3.1",
+      "description": "Advanced research platform in generative AI applied to ophthalmology. Free, for eye-care professionals and researchers only. Anonymized material; not for patient care.",
+      "version": "0.3.2",
       "category": "healthcare",
       "keywords": [
         "ophthalmology",

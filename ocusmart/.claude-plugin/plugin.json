@@ -1,7 +1,8 @@
 {
   "name": "ocusmart",
-  "version": "0.3.1",
-  "description": "Experimental ophthalmology research and education for professionals using previously anonymized material, native to Claude. Scientific direction: Dr. Alfredo Di Giovanni. No patient-care decisions or clinical validation.",
+  "displayName": "OcuSmart",
+  "version": "0.3.2",
+  "description": "Advanced research platform in generative AI applied to ophthalmology. Free, for eye-care professionals and researchers only. Anonymized material; not for patient care.",
   "author": {
     "name": "Alfredo Di Giovanni",
     "email": "ocusmartai@gmail.com"
@@ -19,5 +20,6 @@
   ],
   "skills": "./skills",
   "commands": "./commands",
-  "license": "MIT"
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png"
 }
