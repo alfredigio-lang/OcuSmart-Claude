@@ -1,0 +1,15 @@
+{
+  "name": "ocusmart",
+  "owner": { "name": "Alfredo Di Giovanni", "email": "ocusmartai@gmail.com" },
+  "metadata": { "description": "OcuSmart — experimental ophthalmology research and education for Claude" },
+  "plugins": [
+    {
+      "name": "ocusmart",
+      "source": "./ocusmart",
+      "description": "Experimental ophthalmology research and education for professionals using previously anonymized material. Not for patient care.",
+      "version": "0.2.0",
+      "category": "healthcare",
+      "keywords": ["ophthalmology", "oculomics", "OCT", "TrueRef"]
+    }
+  ]
+}
