@@ -1,7 +1,7 @@
 {
   "name": "ocusmart",
   "displayName": "OcuSmart",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Advanced research platform in generative AI applied to ophthalmology. Free, for eye-care professionals and researchers only. Anonymized material; not for patient care.",
   "author": {
     "name": "Alfredo Di Giovanni",
@@ -21,5 +21,10 @@
   "skills": "./skills",
   "commands": "./commands",
   "license": "MIT",
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "repository": "https://github.com/alfredigio-lang/OcuSmart-Claude",
+  "documentationUrl": "https://github.com/alfredigio-lang/OcuSmart-Claude/blob/main/ocusmart/README.md",
+  "supportUrl": "https://github.com/alfredigio-lang/OcuSmart-Claude/blob/main/SUPPORT.md",
+  "privacyPolicyUrl": "https://github.com/alfredigio-lang/OcuSmart-Claude/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/alfredigio-lang/OcuSmart-Claude/blob/main/TERMS.md"
 }

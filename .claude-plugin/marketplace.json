@@ -12,7 +12,7 @@
       "name": "ocusmart",
       "source": "./ocusmart",
       "description": "Advanced research platform in generative AI applied to ophthalmology. Free, for eye-care professionals and researchers only. Anonymized material; not for patient care.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "category": "healthcare",
       "keywords": [
         "ophthalmology",
