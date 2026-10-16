@@ -10,7 +10,7 @@ Public Claude plugin marketplace for **OcuSmart** — experimental ophthalmology
 3. Add **OcuSmart**, then in any chat write: *Start OcuSmart*.
 
 **Option B — any plan, including Free:**
-1. Download **[ocusmart-skill.zip](https://github.com/alfredigio-lang/OcuSmart-Claude/releases/latest/download/ocusmart-skill.zip)** (do not unzip it).
+1. Download **[ocusmart-skill.zip](https://github.com/alfredigio-lang/OcuSmart-Claude/raw/main/dist/ocusmart-skill.zip)** (do not unzip it).
 2. Make sure **code execution and file creation** is on (Settings → Capabilities).
 3. Open **Customize** → **Skills** → **+** → **Create skill** → **Upload a skill**, and choose the zip.
 4. In any chat write: *Start OcuSmart*.
