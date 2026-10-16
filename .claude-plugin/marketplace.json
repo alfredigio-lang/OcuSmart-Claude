@@ -7,7 +7,7 @@
       "name": "ocusmart",
       "source": "./ocusmart",
       "description": "Experimental ophthalmology research and education for professionals using previously anonymized material. Not for patient care.",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "category": "healthcare",
       "keywords": ["ophthalmology", "oculomics", "OCT", "TrueRef"]
     }

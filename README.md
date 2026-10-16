@@ -2,6 +2,19 @@
 
 Public Claude plugin marketplace for **OcuSmart** — experimental ophthalmology research and education (anonymized material only; not clinically validated; not for patient care).
 
+## Use it in the Claude app (no technical skills needed)
+
+**Option A — paid plans (Pro, Max, Team, Enterprise):**
+1. In Claude, open **Customize** in the left sidebar → **Plugins**.
+2. Click **Add** → **Add marketplace** and enter `alfredigio-lang/OcuSmart-Claude`.
+3. Add **OcuSmart**, then in any chat write: *Start OcuSmart*.
+
+**Option B — any plan, including Free:**
+1. Download **[ocusmart-skill.zip](https://github.com/alfredigio-lang/OcuSmart-Claude/releases/latest/download/ocusmart-skill.zip)** (do not unzip it).
+2. Make sure **code execution and file creation** is on (Settings → Capabilities).
+3. Open **Customize** → **Skills** → **+** → **Create skill** → **Upload a skill**, and choose the zip.
+4. In any chat write: *Start OcuSmart*.
+
 ## Install (Claude Code)
 ```
 /plugin install ocusmart --marketplace alfredigio-lang/OcuSmart-Claude

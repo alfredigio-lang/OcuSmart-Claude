@@ -1,6 +1,6 @@
 {
   "name": "ocusmart",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Experimental ophthalmology research and education for professionals using previously anonymized material, native to Claude. Scientific direction: Dr. Alfredo Di Giovanni. No patient-care decisions or clinical validation.",
   "author": {
     "name": "Alfredo Di Giovanni",
