@@ -1,6 +1,6 @@
 # OcuSmart for Claude
 
-Public Claude plugin marketplace for **OcuSmart** — experimental ophthalmology research and education (anonymized material only; not clinically validated; not for patient care).
+**OcuSmart** is an advanced research platform in generative artificial intelligence applied to ophthalmology: specialist scientific reasoning, exploratory imaging review, longitudinal analysis, oculomics and bibliographic verification (TrueRef), with explicit methodological and privacy safeguards. Experimental, for research and education only: anonymized material only; not clinically validated; not for patient care.
 
 ## Use it in the Claude app (no technical skills needed)
 
