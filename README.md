@@ -4,7 +4,7 @@ Public Claude plugin marketplace for **OcuSmart** — experimental ophthalmology
 
 ## Use it in the Claude app (no technical skills needed)
 
-**OcuSmart is always free.** The plans below are Claude subscriptions; they only decide how you add OcuSmart.
+**OcuSmart is free and intended exclusively for eye-care professionals and researchers, not for patients.** The plans below are Claude subscriptions; they only decide how you add OcuSmart.
 
 **Option A — paid Claude plans (Claude Pro, Max, Team, Enterprise):**
 1. In Claude, open **Customize** in the left sidebar → **Plugins**.
