@@ -4,6 +4,10 @@ Public Claude plugin marketplace for **OcuSmart** — experimental ophthalmology
 
 ## Install (Claude Code)
 ```
+/plugin install ocusmart --marketplace alfredigio-lang/OcuSmart-Claude
+```
+Or in two steps:
+```
 /plugin marketplace add alfredigio-lang/OcuSmart-Claude
 /plugin install ocusmart@ocusmart
 ```

@@ -4,7 +4,7 @@ Experimental ophthalmology research and education for professionals, using previ
 Scientific direction: Dr. Alfredo Di Giovanni. Not clinically validated; not for diagnosis, screening, treatment, surgery or patient-care decisions.
 
 ## Install
-Claude Code: `/plugin marketplace add <path-or-repo>` then `/plugin install ocusmart`, or load locally with `claude --plugin-dir ./ocusmart`.
+Claude Code: `/plugin install ocusmart --marketplace alfredigio-lang/OcuSmart-Claude`
 
 ## Commands
 - `/ocusmart [question]` — entry point (privacy gate + routing)
