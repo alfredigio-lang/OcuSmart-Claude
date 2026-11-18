@@ -21,7 +21,7 @@ After adding the plugin, write **"Start OcuSmart"** (or "Avvia OcuSmart") in any
 
 - **Instructions only.** The plugin consists of skill and command instructions. It contains no hooks, no MCP servers, no agents and no background processes.
 - **Web access.** When the user asks for literature or bibliography verification, OcuSmart uses Claude's own web search and fetch to consult public sources such as PubMed, Crossref, DOI resolvers and publisher pages. Only general scientific terms or bibliographic metadata are sent; patient narratives, case data, files and images are never included in searches.
-- **Local calculation.** `skills/ocusmart/scripts/research_math.py` performs descriptive arithmetic (spherical equivalent, interval change, linear trend, OSDI score) when Claude's code execution is available. It reads JSON from standard input, prints JSON, writes no files and makes no network calls.
+- **Calculation.** `skills/ocusmart/references/research-math.md` gives the formulas for descriptive arithmetic (spherical equivalent, interval change, linear trend, OSDI score) and a reference implementation that Claude runs in its own code-execution environment when available. It writes no files and makes no network calls. The plugin contains no executable files.
 - **No data collection.** OcuSmart has no server, database, analytics or telemetry. It does not store case material, does not write to Claude's memory and sends nothing to its author or to third parties.
 
 ## Licence

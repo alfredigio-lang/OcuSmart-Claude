@@ -8,7 +8,7 @@ Apply both gates. Use relative elapsed times supplied by the professional, never
 4. Inspect repeated versus isolated changes, floor/ceiling effects, testing strategies, learning, segmentation, treatment timing and measurement noise when pertinent.
 5. Report concordance, discordance or insufficient evidence with the observations supporting it. Non-significance is not stability and a straight line is not proof of progression.
 
-Use scripts/research_math.py via Python for supported arithmetic on privacy-cleared numeric inputs only. It accepts JSON on stdin, returns JSON on stdout, writes no files and makes no network calls. Commands: se, interval, trend, osdi. Read its schema in the file before use. It has no privacy detector and must not receive raw files or identifiers. Host execution must actually be available. Never claim this script is a clinical algorithm.
+For supported arithmetic (se, interval, trend, osdi) on privacy-cleared numeric inputs only, follow [research-math.md](research-math.md): it gives the formulas and a reference implementation to run with code execution when available, or to apply by hand otherwise. It has no privacy detector and must not receive raw files or identifiers. Never claim it is a clinical algorithm.
 
 For glaucoma, compare structure and function topographically where supported, accounting for sector/hemifield mapping and sampling. Do not predict a new acceleration or a personal risk from a narrative heuristic. Advanced statistical models are research candidates requiring enough observations, explicit assumptions and comparison with a prespecified baseline. Do not force Lorenz/GARCH/fractal models, assume their superiority or hide their provenance.
 

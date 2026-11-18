@@ -1,7 +1,7 @@
 {
   "name": "ocusmart",
   "displayName": "OcuSmart",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Advanced research platform in generative AI applied to ophthalmology. Free, for eye-care professionals and researchers only. Anonymized material; not for patient care.",
   "author": {
     "name": "Alfredo Di Giovanni",

@@ -1,12 +1,30 @@
-"""Descriptive research arithmetic. No clinical classifications or privacy detection.
-Input JSON via stdin, exact schemas:
+# Research arithmetic
+
+Descriptive arithmetic for OcuSmart longitudinal research. It has no privacy detector, no clinical classification and no forecasting. Use it only on privacy-cleared numbers supplied by the professional, never on raw files or identifiers. Never present it as a clinical algorithm.
+
+## Formulas
+
+- **Spherical equivalent (se):** SE = sphere + cylinder / 2, in dioptres.
+- **Interval change (interval):** signed change = after − before; annualized signed change = change × 365.25 / elapsed days. Elapsed days must be positive and the two measurements must be comparable (same device, method and quality standard). Annualization is a descriptive extrapolation, not a forecast.
+- **Linear trend (trend):** unweighted ordinary least-squares slope per year and intercept, from at least three paired observations with strictly increasing times and established comparability. No p-value, significance, progression verdict or forecast.
+- **OSDI score (osdi):** exactly 12 item slots, each 0–4 or null for unanswered/not applicable; score = sum of answered items × 25 / number of answered items. Missingness and questionnaire applicability still require review.
+
+## How to calculate
+
+When code execution is available in the session, write the reference implementation below to a temporary file and run it, passing one JSON object on standard input. Show the input and output to the user. When code execution is not available, calculate by hand from the formulas above, show every step, and say that the result was not machine-checked. Never report a number as computed by code unless the code was actually run.
+
+Accepted inputs, one per run:
+
+```json
 {"op":"se","sphere":-2,"cylinder":-1}
 {"op":"interval","before":80,"after":78,"elapsed_days":365.25,"comparable":true}
 {"op":"trend","time_years":[0,1,2],"values":[80,79,78],"comparable":true}
 {"op":"osdi","scores":[0,1,null,2,3,4,0,1,2,3,4,0]}
-Only pass privacy-cleared numbers. Unknown fields are rejected. No file/network writes.
-OLS slope is descriptive, with no p-value, progression verdict or forecast.
-"""
+```
+
+Reference implementation (reads JSON from standard input, prints JSON, writes no files, makes no network calls):
+
+```python
 import json
 import math
 import sys
@@ -89,3 +107,4 @@ if __name__ == '__main__':
     except (ValueError, TypeError, OverflowError, ZeroDivisionError):
         print(json.dumps({'error':'Invalid or non-comparable input; calculation not performed'}))
         sys.exit(2)
+```
